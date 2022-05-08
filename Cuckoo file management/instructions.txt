@@ -1,0 +1,4 @@
+1) Setup selenium with webdriver
+https://tecadmin.net/setup-selenium-chromedriver-on-ubuntu/
+
+2)
