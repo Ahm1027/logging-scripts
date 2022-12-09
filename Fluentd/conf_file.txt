@@ -17,8 +17,8 @@
   @type elasticsearch
   host https://cynergizer-ce1e21.es.us-central1.gcp.cloud.es.io:9243
   index_name 62558e285529969891a081a3`dionaea_requests
-  user elastic
-  password j1UnCKApb2N5VWU8wZmueUOK
+  user *****
+  password *****
 </match>
 
 
@@ -49,8 +49,8 @@
   @type elasticsearch
   host https://cynergizer-ce1e21.es.us-central1.gcp.cloud.es.io:9243
   index_name 62558e285529969891a081a3`web_requests
-  user elastic
-  password j1UnCKApb2N5VWU8wZmueUOK
+  user *****
+  password *****
 </match>
 
 <source>
@@ -65,8 +65,8 @@
   @type elasticsearch
   host https://cynergizer-ce1e21.es.us-central1.gcp.cloud.es.io:9243
   index_name 62558e285529969891a081a3`cowrie_requests
-  user elastic
-  password j1UnCKApb2N5VWU8wZmueUOK
+  user *****
+  password *****
 </match>
 
 <source>
@@ -96,6 +96,6 @@
   port 9243
   scheme https
   index_name 62558e285529969891a081a3`iptable_requests
-  user elastic
-  password j1UnCKApb2N5VWU8wZmueUOK
+  user *****
+  password *****
 </match>
