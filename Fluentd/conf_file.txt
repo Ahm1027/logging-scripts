@@ -15,7 +15,7 @@
 
 <match dionaea>
   @type elasticsearch
-  host https://cynergizer-ce1e21.es.us-central1.gcp.cloud.es.io:9243
+  host ES_URI
   index_name 62558e285529969891a081a3`dionaea_requests
   user *****
   password *****
@@ -47,7 +47,7 @@
 
 <match snare>
   @type elasticsearch
-  host https://cynergizer-ce1e21.es.us-central1.gcp.cloud.es.io:9243
+  host ES_URI
   index_name 62558e285529969891a081a3`web_requests
   user *****
   password *****
@@ -63,7 +63,7 @@
 
 <match cowrie>
   @type elasticsearch
-  host https://cynergizer-ce1e21.es.us-central1.gcp.cloud.es.io:9243
+  host ES_URI
   index_name 62558e285529969891a081a3`cowrie_requests
   user *****
   password *****
@@ -92,7 +92,7 @@
 
 <match iptable>
   @type elasticsearch
-  host cynergizer-ce1e21.es.us-central1.gcp.cloud.es.io
+  host ES_URI
   port 9243
   scheme https
   index_name 62558e285529969891a081a3`iptable_requests
